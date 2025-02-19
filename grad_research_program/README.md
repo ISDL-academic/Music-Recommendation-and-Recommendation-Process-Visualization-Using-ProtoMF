@@ -47,6 +47,13 @@
 ## 🚀 使用方法
 
 ### 環境の準備
+
+
+<details><summary>package</summary><div>
+
+```
+ーーーーーーーーーー
+requirements
 ProtoMF_github.ipynbに従ってインストールしてください
 ```bash
 !pip install accelerate==0.34.2 \
@@ -92,6 +99,11 @@ ProtoMF_github.ipynbに従ってインストールしてください
 wandb 0.19.4
 ray 2.41.0
 2025/2/19時点での最新バージョンを使用しています．
+ーーーーーーーーーーー
+ 
+```
+
+</div></details>
 
 ### 音源特徴量を含む音楽推薦モデルの実行
 1. `main`フォルダに移動します。
