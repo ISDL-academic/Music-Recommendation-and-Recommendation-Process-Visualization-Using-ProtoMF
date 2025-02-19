@@ -48,7 +48,50 @@
 
 ### 環境の準備
 ProtoMF_github.ipynbに従ってインストールしてください
-
+```bash
+!pip install accelerate==0.34.2 \
+            arviz==0.19 \
+            autograd==1.7.0 \
+            bigframes==1.18.0 \
+            dask==2024.8.0 \
+            distributed==2024.8.0 \
+            duckdb==1.1.0 \
+            earthengine-api==1.0.0 \
+            flax==0.8.5 \
+            gdown==5.2.0 \
+            geemap==0.34.3 \
+            geopandas==1.0.1 \
+            google-cloud-aiplatform==1.67.1 \
+            google-cloud-bigquery-storage==2.26.0 \
+            holidays==0.57 \
+            huggingface-hub==0.24.7 \
+            ibis-framework==9.2.0 \
+            jax==0.4.33 \
+            jaxlib==0.4.33 \
+            kagglehub==0.3.0 \
+            lightgbm==4.5.0 \
+            matplotlib-venn==1.1.1 \
+            mizani==0.11.4 \
+            Pillow==10.4.0 \
+            plotly==5.24.1 \
+            plotnine==0.13.6 \
+            polars==1.6.0 \
+            progressbar2==4.5.0 \
+            PyDrive2==1.20.0 \
+            pymc==5.16.2 \
+            pytensor==2.25.4 \
+            scikit-image==0.24.0 \
+            scikit-learn==1.5.2 \
+            torch==2.4.1 \
+            torchaudio==2.4.1 \
+            torchvision==0.19.1 \
+            transformers==4.44.2 \
+            urllib3==2.2.3 \
+            xarray==2024.9.0
+```
+wandb 0.19.4
+ray 2.41.0
+2025/2/19時点での最新バージョンを使用しています．
 
 ### 音源特徴量を含む音楽推薦モデルの実行
 1. `main`フォルダに移動します。
