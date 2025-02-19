@@ -55,7 +55,7 @@
 ーーーーーーーーーー
 requirements
 ProtoMF_github.ipynbに従ってインストールしてください
-```bash
+
 !pip install accelerate==0.34.2 \
             arviz==0.19 \
             autograd==1.7.0 \
@@ -95,7 +95,7 @@ ProtoMF_github.ipynbに従ってインストールしてください
             transformers==4.44.2 \
             urllib3==2.2.3 \
             xarray==2024.9.0
-```
+
 wandb 0.19.4
 ray 2.41.0
 2025/2/19時点での最新バージョンを使用しています．
